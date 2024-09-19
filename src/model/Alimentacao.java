@@ -27,7 +27,7 @@ public class Alimentacao extends Despesa{
 
     public void cadastrarDespesa(String descricao, int qtdRefeicao, String nomeRestaurante)
     {
-        qtdRefeicao = 0;
+        this.qtdRefeicao = qtdRefeicao;
         this.nomeRestaurante = nomeRestaurante;
         super.cadastrarDespesa(descricao);
     }

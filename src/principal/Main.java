@@ -21,22 +21,22 @@ public class Main {
         int op = scan.nextInt();
         switch (op)
         {
-            case '1':
+            case 1:
                 Alimentacao despAlimentacao = new Alimentacao();
                 System.out.println("Descreva a despesa, quantas alimentasções e o nome do restaurante");
                 despAlimentacao.cadastrarDespesa(scan.next(), scan.nextInt(), scan.next());
                 break;
-            case '2':
+            case 2:
                 Transporte despTransporte = new Transporte();
                 System.out.println("Descreva a depesa, o valor dos pedágios e a kms percorridos");
                 despTransporte.cadastrarDespesa(scan.next(), scan.nextDouble(), scan.nextDouble());
                 break;
-            case '3':
+            case 3:
                 Diaria despDiaria = new Diaria();
                 System.out.println("Descreva a despesa e o valor da diária");
                 despDiaria.cadastrarDespesa(scan.next(), scan.nextDouble());
                 break;
-            case '0':
+            case 0:
                 System.out.println("--------------Obrigado por usar nosso sistema---------------");
                 break;
             default:

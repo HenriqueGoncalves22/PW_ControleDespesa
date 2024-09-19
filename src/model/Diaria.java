@@ -16,7 +16,7 @@ public class Diaria extends Despesa{
 
     public void cadastrarDespesa(String descricao, double qtdDiaria)
     {
-        qtdDiaria = 0;
+        this.qtdDiaria = qtdDiaria;
         super.cadastrarDespesa(descricao);
     }
 

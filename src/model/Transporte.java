@@ -21,7 +21,7 @@ public class Transporte extends Despesa{
 
     public void cadastrarDespesa(String descricao, double valorPedagios, double kmPercorrida)
     {
-        valorPedagios = 0;
+        this.valorPedagios = valorPedagios;
         this.kmPercorrida = kmPercorrida;
         super.cadastrarDespesa(descricao);
     }
